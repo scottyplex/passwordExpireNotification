@@ -8,7 +8,7 @@ $logFile = "C:\_SCORCH\PasswordExpiryNotification\passwordexpiry.csv" # ie. c:\m
 $testing = "Disabled" # Set to Disabled to Email Users
 $testRecipient = "slichty@email.com"
 $date = Get-Date -format MM/dd/yyyy
-$ou = "OU=Users,OU=Practice Office,DC=domain,DC=com"
+$ou = "OU=Users,DC=domain,DC=com"
 ###################################################################################################################
 
 # Check Logging Settings
